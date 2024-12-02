@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Anton&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Solway:wght@300;400;500;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.disability{
+    position:relative;
+    width: 300px; 
+    height: 300px;
+    margin: 0 auto;
+}
+
+.center{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    inset: 50% 0 0 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    border: none;
+}
+
+.center i{
+    font-size: 6rem;
+}
+
+.circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.circle button {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle button img{
+    height: 60px;
+    width: 60px;
+}
+
+.circle button:nth-child(1) {
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.circle button:nth-child(2) {
+    top: 25%;
+    right: -10%;
+    transform: translateY(-50%);
+}
+  
+.circle button:nth-child(3) {
+    bottom: 25%;
+    right: -10%;
+    transform: translateY(50%);
+}
+  
+.circle button:nth-child(4) {
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.circle button:nth-child(5) {
+    bottom: 25%;
+    left: -10%;
+    transform: translateY(50%);
+}
+  
+.circle button:nth-child(6) {
+    top: 25%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+.circle button:nth-child(1) p{
+    position: absolute;
+    top: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+
+
+
+.circle button:nth-child(2) p{
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+
+
+.circle button:nth-child(3) p{
+    position: absolute;
+    right: -100%;
+    top: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+
+.circle button:nth-child(4) p{
+    position: absolute;
+    bottom: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+
+.circle button:nth-child(5) p{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 120px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+
+.circle button:nth-child(6) p{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: 100px;
+    padding: 5px;
+    text-transform: capitalize;
+    opacity: 0;
+}
